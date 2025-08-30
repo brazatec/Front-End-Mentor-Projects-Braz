@@ -4,12 +4,14 @@ body {
     background: hsl(0, 0%, 8%);
 }
 
+/*Centralizando com container*/
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*Box cinza*/
 .box {
     margin-top: 150px;
 
@@ -31,7 +33,7 @@ p {
     color: white;
 }
 
-
+/*Links*/
 a {
     display: flex;
     justify-content: center;
@@ -55,6 +57,7 @@ a {
     font-weight: 600;
 }
 
+/*Links Clicaveis*/
 a:hover {
     display: flex;
     justify-content: center;
@@ -79,6 +82,8 @@ a:hover {
     color: hsl(75, 94%, 57%);
 }
 
+
+/*Manipulações de espaçamentos*/
 #primeiroP {
     margin-top: 15px;
     margin-bottom: 0px;
